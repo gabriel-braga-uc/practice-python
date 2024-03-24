@@ -1,0 +1,1 @@
+nf = input("Entre o valor do numero: ")
