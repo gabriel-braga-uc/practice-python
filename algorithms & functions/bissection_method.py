@@ -33,7 +33,7 @@ while(i <= range_r):
     function_img.append(fx(i))
     function_dom.append(i)
     i += step
-plt.plot(function_dom, function_img,'o', color = "red", markersize=1, label = "(f(x), y)")
+plt.plot(function_dom, function_img,'o', color = "red", markersize=1, label = "(x, f(x))")
 plt.plot([range_l, range_r], [0, 0], color = "black", label = "X-Axis")
 plt.plot(known_root[0], known_root[1], "r+", markersize=10, label = "Exact Root")
 k = 0
