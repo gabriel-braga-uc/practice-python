@@ -24,6 +24,6 @@ def comp(array1, array2):
                         k += 1
         return(True)
 
-l1 = [5, -]
+l1 = [5, -5]
 l2 = [125]
 print(comp(l1, l2))
