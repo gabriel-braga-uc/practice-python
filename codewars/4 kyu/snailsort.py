@@ -11,25 +11,25 @@ def snail(snail_map):
     i = 0
     j = 0
     while steps > 0:
+        sub.pop()
         if go == 'r':
-            while i < len(sub) - 1:
-                path.append(sub[j][i])
-                i = i + 1
-            steps = steps - 1
+
+
+            sub.pop
             go = 'd'
         elif go == 'd':
-            while j < len(sub):
-                path.append(sub[j][i])
-                j = j + 1
-            steps = steps - 1
+
+
             go = 'l'
         elif go == 'l':
-            while i > 0:
-                subpath.append(sub[j][len(sub)-i])
-            steps = steps - 1
+
+
+
             go = 'u'
-        if go == 'u':
-            steps = steps - 1
+        elif go == 'u':
+
+
+
             go = 'r'
     return(path, steps, j, i)
 
