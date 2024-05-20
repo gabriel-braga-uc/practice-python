@@ -11,6 +11,6 @@ def median_from_n_arrays(arrays):
         return((biggy[(len(biggy)-1) // 2] + biggy[(len(biggy)) // 2])/2)
     else:
         return(biggy[(len(biggy)-1) // 2]) 
-
+ 
 arr = [[5,7,9],[7,10,11,13]]
 print(median_from_n_arrays(arr))
